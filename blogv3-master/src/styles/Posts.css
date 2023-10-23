@@ -1,0 +1,64 @@
+.navigate {
+
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+
+
+.postlist {
+    display: block;
+    max-width: 800px;
+    min-width: 50%;
+}
+
+.post {
+    cursor: pointer;
+    background-color: rgb(228, 226, 226);
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    word-wrap: break-word;
+    padding: 20px 20px 20px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.commentBox{
+    background-color: rgb(239, 237, 237);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(2, 2, 2, 0.581);
+    padding: 20px 20px 20px 20px;
+}
+
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.bar{
+    width: 30%;
+}
+
+.buttonSearch{
+    border-style: initial;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: rgb(239, 237, 237);
+    transition: background-color 0.3s ease;
+}
+
+.buttonSearch:hover{
+    background-color: white;
+}
